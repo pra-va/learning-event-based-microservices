@@ -1,0 +1,157 @@
+2021-05-26 22:57:51 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on DESKTOP-VBBMH3K with PID 9640 (D:\Programming\01-Learning\09-learning-event-based-microservices\twitter-to-kafka-service\target\classes started by varan in D:\Programming\01-Learning\09-learning-event-based-microservices)
+2021-05-26 22:57:51 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-05-26 22:57:52 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.277 seconds (JVM running for 2.059)
+2021-05-26 22:57:52 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-05-26 22:57:52 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello World!!! Application started.
+2021-05-26 22:57:52 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 22:57:52 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-26 23:00:44 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on DESKTOP-VBBMH3K with PID 8544 (D:\Programming\01-Learning\09-learning-event-based-microservices\twitter-to-kafka-service\target\classes started by varan in D:\Programming\01-Learning\09-learning-event-based-microservices)
+2021-05-26 23:00:44 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-05-26 23:00:45 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.309 seconds (JVM running for 2.089)
+2021-05-26 23:00:45 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-05-26 23:00:45 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello World!!! Application started.
+2021-05-26 23:00:45 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 23:00:45 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello Microservices!!!
+2021-05-26 23:00:45 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-26 23:43:13 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on DESKTOP-VBBMH3K with PID 6448 (D:\Programming\01-Learning\09-learning-event-based-microservices\twitter-to-kafka-service\target\classes started by varan in D:\Programming\01-Learning\09-learning-event-based-microservices)
+2021-05-26 23:43:13 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-05-26 23:43:14 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.29 seconds (JVM running for 2.112)
+2021-05-26 23:43:14 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-05-26 23:43:14 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello World!!! Application started.
+2021-05-26 23:43:14 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 23:43:14 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello Microservices!!!
+2021-05-26 23:43:14 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:43:14 [main] INFO  l.p.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 23:43:14 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-26 23:43:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2021-05-26 23:43:16 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 10000 milliseconds
+2021-05-26 23:43:26 [Twitter Stream consumer /  [1][Waiting for 10000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:43:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2021-05-26 23:43:26 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 20000 milliseconds
+2021-05-26 23:43:46 [Twitter Stream consumer /  [1][Waiting for 20000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:43:47 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2021-05-26 23:43:47 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 40000 milliseconds
+2021-05-26 23:44:27 [Twitter Stream consumer /  [1][Waiting for 40000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:44:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2021-05-26 23:44:28 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 80000 milliseconds
+2021-05-26 23:45:48 [Twitter Stream consumer /  [1][Waiting for 80000 milliseconds]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:45:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - 401:Authentication credentials (https://dev.twitter.com/pages/auth) were missing or incorrect. Ensure that you have set valid consumer key/secret, access token/secret, and the system clock is in sync.
+<html>\n<head>\n<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>\n<title>Error 401 Unauthorized</title>
+</head>
+<body>
+<h2>HTTP ERROR: 401</h2>
+<p>Problem accessing '/1.1/statuses/filter.json'. Reason:
+<pre>    Unauthorized</pre>
+</body>
+</html>
+
+2021-05-26 23:45:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Waiting for 160000 milliseconds
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on DESKTOP-VBBMH3K with PID 7540 (D:\Programming\01-Learning\09-learning-event-based-microservices\twitter-to-kafka-service\target\classes started by varan in D:\Programming\01-Learning\09-learning-event-based-microservices)
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 1.296 seconds (JVM running for 2.011)
+2021-05-26 23:47:05 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state LivenessState changed to CORRECT
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello World!!! Application started.
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 23:47:05 [main] INFO  l.p.t.TwitterToKafkaServiceApplication - Hello Microservices!!!
+2021-05-26 23:47:05 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-05-26 23:47:05 [main] INFO  l.p.t.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Spring, Kafka, Elasticsearch]
+2021-05-26 23:47:05 [main] INFO  o.s.b.a.ApplicationAvailabilityBean - Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2021-05-26 23:47:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-05-26 23:47:07 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-05-26 23:47:08 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text @DevinMcG1 Nah last spring. Might bring it back after the primary when I shave the playoff beard tho
+2021-05-26 23:47:08 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Spring is here! @SeagateGaming and @asususa is giving away a PC building starter kit. Spring means new beginnings, even for gaming hardware! #PCStarterKit #Giveaway Enter to win here: https://t.co/hQflWTwTPu
+2021-05-26 23:47:09 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @MedicineHatNews: This spring the parks and recreation department will ask how much space in city parks should be left open or developed…
+2021-05-26 23:47:13 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @BBCSpringwatch: The mass emergence of mayfly, is a spring spectacle not to be missed. Sit back, relax and enjoy seeing them dance on th…
+2021-05-26 23:47:13 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @304verse: ‘Frost’ Track Highlight Lyrics
+
+I’m so shocked…
+
+There’s no warmth even when spring comes
+Yet another needle piercing at me t…
+2021-05-26 23:47:13 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Was glad to finally get the lawn cut. Was putting it off so wild flowers and grass would grow as it was a cold and late spring. Was lovely to see two blackbirds stroll across the lawn and have their fill of grubs, insects, worms. Lovely wee sight.
+2021-05-26 23:47:13 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @lombocrimson: Finished off our Winter/Spring this morning at 5:45 AM - this is a great group of young men that represent a WHOLE lot of…
+2021-05-26 23:47:15 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text College Coaches I would like you to see @AlexDal82653835 this was last season on jv with 1 varsity start. Last week in our spring jamboree he had some great runs and 2 TDs as a https://t.co/bXlc4HIEEw #hudl
+2021-05-26 23:47:15 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @joshsimmons: Elasticsearch relicensing, Freenode implosion, utter lack of FSF accountability:
+
+I hope folks are noticing the same patte…
+2021-05-26 23:47:15 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @1stPragmatist: They say pride comes before a fall
+As Mike Lindell ought to recall
+He flew to join the RGA
+Who kindly said, Please stay…
+2021-05-26 23:47:16 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Milt Peterson, legendary Greater Washington developer, has died | The iconic developer behind the likes of Fair Lakes, Burke Centre, National Harbor and downtown Silver Spring, passed away this morning of natural causes at his home. He was 85. #RIP 🙏🏻🥀 https://t.co/RuPbQoxjsk
+2021-05-26 23:47:17 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @harugumibot: Well, anyway, Masumi can stay as Masumi, just do whatever you want. I think in the end, that Masumi that sounds like the u…
+2021-05-26 23:47:20 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Of course since we didn't meaningfully prioritize high exposure risk individuals for the first shot, I'm not holding my breath
+2021-05-26 23:47:20 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @rvoneinem: Camilo Margeli 🌹♥️ red spring♥️🌹 https://t.co/5bJ5E7q3hr
+2021-05-26 23:47:21 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @HeyBooBoo16: 🚨See what happens when you DON’T PUNISH people like JUSSIE SMOLLETT for a HATE HOAX?
+2021-05-26 23:47:21 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @ELAST_JP: [🍃#ShowChampion]
+⠀
+2021.05.26
+E'LAST U - The beginning of spring
+ステージ 終了🌿
+⠀
+#쇼챔피언 #쇼챔 
+#ELAST_U #엘라스트유
+#봄의시작 #Thebeginningofs…
+2021-05-26 23:47:22 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Dark mode has disappeared on my Facebook and I refuse to use it until it comes back #Facebook #darkmode #Android #socialmedia #Wednesday #spring #facts
+2021-05-26 23:47:23 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @mguariglia: Because I've spoken to a bunch of news outlets this week about Citizen and other crowd-sourced community crime apps, I'm re…
+2021-05-26 23:47:24 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @drmwarner: Our #COVID situation will improve faster if we aim for a 2-shot spring for high risk/elderly & high exposure risk individual…
+2021-05-26 23:47:24 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text It's even working with Flat Viewer:
+https://t.co/ZGglAuLlPd
+2021-05-26 23:47:27 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Dashe: This spring is BIG. 👀
+
+🔹 Foam Runners this week.
+🔹 Abundance of Yeezys in June....
+
+Want to take stock with Dashe? Retweet & Rep…
+2021-05-26 23:47:27 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotNet #C #CPP #Java #Flutter #SQL #TensorFlow #JavaScript #ReactJS #MachineLearning #Serverless #DataScientist #Linux #Programming #Coding #100DaysofCode https://t.co/XYWAzWsORj
+2021-05-26 23:47:28 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @dlippman: SCOOP: The Republican Governors Association on Tuesday threw out Mike Lindell after he showed up to its spring conference. He…
+2021-05-26 23:47:29 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @DakotaBirder: Blackburnian Warbler (last year photo). One of...many...warbler species that I never saw this spring. Was spoiled by the…
+2021-05-26 23:47:31 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotN…
+2021-05-26 23:47:32 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @gabecantread: living in Utah is just seeing Facebook posts every spring where people are like “I’m so honored to have been called to co…
+2021-05-26 23:47:32 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @binkitapaIinti: 'Yaşamın bana verdiği iki ders; çevreni gittikçe daralt, gereksiz kalabalıkların seni üzmesine izin verme.' 
+
+ Franz Ka…
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotN…
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotN…
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotN…
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text Daily Practice: coding a #Blockchain in Java using TDD; using genesis difficulty instead of difficulty constant in BlockValidator tests; nice!
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text @julia_perve We also get long winters where I live. Always feels so nice when spring finally arrives.
+2021-05-26 23:47:33 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @LAvsAllYall: Justin Collins (@JuicetnX) cherishes his versatility on defense and is embracing an increasing leadership role this spring…
+2021-05-26 23:47:34 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @Doxyaxone: just send this to a friend who is afraid to learn Git. #Python #BigData #Analytics #AI #DataScience #IoT #IIoT #RStats #DotN…
+2021-05-26 23:47:35 [Twitter4J Async Dispatcher[0]] INFO  l.p.t.l.TwitterKafkaStatusListener - Twitter status with text RT @NPASMidlands: It's hard to beat the #viewfromtheoffice on a spring evening here at Husbands Bosworth. We're not here to admire the view…
